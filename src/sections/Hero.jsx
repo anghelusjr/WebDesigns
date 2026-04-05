@@ -15,6 +15,9 @@ export default function SplitHero() {
         >
           <img
             src="/images/hero.webp"
+            alt="Lead generation website design preview"
+            loading="eager"
+            fetchpriority="high"
             className="w-full h-full object-cover"
           />
         </motion.div>
@@ -27,9 +30,9 @@ export default function SplitHero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-xs tracking-[0.2em] text-[#4A3F35]/60 mb-4"
+            className="text-xs tracking-[0.2em] text-[#4A3F35]/70 mb-4"
           >
-            LEAD GENERATION WEBSITES FOR SMALL BUSINESSES
+            WEBSITES BUILT TO GENERATE CLIENT INQUIRIES
           </motion.p>
 
           {/* HEADING */}
@@ -37,10 +40,10 @@ export default function SplitHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-3xl sm:text-4xl md:text-4xl xl:text-5xl leading-tight text-[#4A3F35]"
+            className="text-3xl sm:text-4xl md:text-4xl xl:text-5xl leading-tight text-[#3E352C]"
           >
-            Clients Scroll. <br />
-            Your Website Takes Control
+            Turn Your Website <br />
+            Into a System That Brings You Clients
           </motion.h1>
 
           {/* PARAGRAPH */}
@@ -48,10 +51,11 @@ export default function SplitHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="mt-4 text-sm sm:text-base xl:text-lg text-[#4A3F35]/80 leading-relaxed max-w-xl"
+            className="mt-4 text-sm sm:text-base xl:text-lg text-[#3E352C]/80 leading-relaxed max-w-xl"
           >
-            We build websites that turn visitors into real inquiries
-            through clear structure, strong messaging, and simple user experience.
+            We design conversion-focused websites that guide visitors,
+            build trust, and turn them into real inquiries—without
+            overwhelming your users.
           </motion.p>
 
           {/* BUTTON */}
@@ -62,10 +66,10 @@ export default function SplitHero() {
             className="mt-6"
           >
             <a
-              href="http://localhost:5173/free-audit"
-              className="inline-block px-6 py-3 text-sm sm:text-base border border-[#4A3F35]/40 text-[#4A3F35] rounded-full hover:bg-[#4A3F35] hover:text-[#FAF9F6] transition"
+              href="/free-audit"
+              className="inline-block px-6 py-3 text-sm sm:text-base border border-[#3E352C]/40 text-[#3E352C] rounded-full hover:bg-[#3E352C] hover:text-[#FAF9F6] transition"
             >
-              Get Your Free Website Audit
+              Get a Free Website Audit
             </a>
           </motion.div>
 
