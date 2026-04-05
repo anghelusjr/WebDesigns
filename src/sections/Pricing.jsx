@@ -1,6 +1,6 @@
     import { motion } from "framer-motion";
     import { useState } from "react";
-    import QuoteModal from "../pages/QuoteModal";
+    import QuoteModal from "../components/QuoteModal";
 
     export default function Pricing() {
 

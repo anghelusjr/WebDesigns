@@ -1,28 +1,28 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
-// Landing components
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Problems from "./components/Problems";
-import PainPoints from "./components/PainPoints";
-import Portfolio from "./components/Portfolio";
-import Pricing from "./components/Pricing";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
-import ComparisonSection from "./components/ComparisonSection";
-import ServicesSection from "./components/ServicesSection";
-import WhyChooseUs from "./components/WhyChooseUs";
-import GetMoreInquiries from "./components/GetMoreInquiries";
-import Testimonials from "./components/Testimonials";
-import FloatingWidget from "./components/FloatingWidget";
-import About from "./components/About"
+// Landing sections
+import Hero from "./sections/Hero";
+import Problems from "./sections/Problems";
+import PainPoints from "./sections/PainPoints";
+import Portfolio from "./sections/Portfolio";
+import Pricing from "./sections/Pricing";
+import CTA from "./sections/CTA";
+import ComparisonSection from "./sections/ComparisonSection";
+import ServicesSection from "./sections/ServicesSection";
+import WhyChooseUs from "./sections/WhyChooseUs";
+import GetMoreInquiries from "./sections/GetMoreInquiries";
+import Testimonials from "./sections/Testimonials";
+import About from "./sections/About"
 
-// Pages
-import QuoteModal from "./pages/QuoteModal";
-import FreeAudit from "./pages/FreeAudit";
-import TermsOfService from "./pages/TermsOfService";
-import PrivacyPolicy from "./pages/Privacy";
+// Components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import QuoteModal from "./components/QuoteModal";
+import FreeAudit from "./components/FreeAudit";
+import TermsOfService from "./components/TermsOfService";
+import PrivacyPolicy from "./components/Privacy";
+import FloatingWidget from "./components/FloatingWidget";
 
 function HomePage() {
   return (
