@@ -42,8 +42,8 @@ export default function SplitHero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-4xl xl:text-5xl leading-tight text-[#3E352C]"
           >
-            Turn Your Website <br />
-            Into a System That Brings You Clients
+            Clients Scroll. <br />
+            Your Website Takes Control.
           </motion.h1>
 
           {/* PARAGRAPH */}
