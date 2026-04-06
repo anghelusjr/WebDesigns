@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function SplitHero() {
   return (
@@ -65,12 +66,12 @@ export default function SplitHero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="mt-6"
           >
-            <a
-              href="/free-audit"
+            <Link
+              to="/free-audit"
               className="inline-block px-6 py-3 text-sm sm:text-base border border-[#3E352C]/40 text-[#3E352C] rounded-full hover:bg-[#3E352C] hover:text-[#FAF9F6] transition"
             >
               Get a Free Website Audit
-            </a>
+            </Link>
           </motion.div>
 
         </div>
