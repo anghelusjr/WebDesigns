@@ -30,7 +30,7 @@ export default function SplitHero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-xs tracking-[0.2em] text-[#4A3F35]/70 mb-4"
+            className="text-xs sm:text-sm lg:text-lg xl:pt-10 tracking-[0.2em] text-[#4A3F35]/70 mb-4"
           >
             WEBSITES BUILT TO GENERATE CLIENT INQUIRIES
           </motion.p>

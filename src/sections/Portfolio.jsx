@@ -172,7 +172,7 @@ export default function SmoothScrollGallery() {
         ref={ref}
         className={`${sectionHeight} -mt-5 hidden lg:flex items-center justify-center`}
       >
-        <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
+        <div className="sticky top-0 h-screen w-full flex items-center justify-center">
           <div className="relative w-full h-full flex items-center justify-center">
 
             {/* CENTER IMAGE */}
