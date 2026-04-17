@@ -116,10 +116,10 @@ export default function Pricing() {
                         Conversion-focused websites
                     </span>{" "}
                     <span className="text-[#4A3F35] font-semibold">
-                        starting at $150
+                        starting at $215
                     </span>{" "}
                     <span className="text-[#6B5F55]">
-                        (~₱8,000)
+                        (~₱11,999)
                     </span>
                 </motion.h3>
 
