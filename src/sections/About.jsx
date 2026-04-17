@@ -20,7 +20,6 @@ export default function About() {
           "
           />
 
-          {/* subtle design accent */}
           <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#D6C3B3] rounded-2xl opacity-40 blur-xl"></div>
         </motion.div>
 
@@ -38,27 +37,26 @@ export default function About() {
             Built for Businesses That Want More Than Just a Website
           </h2>
 
+          {/* UPDATED SEO + POSITIONING */}
           <p className="font-poppins text-lg text-[#4B4B4B] mb-5 leading-relaxed">
-            I'm Angel, a Web Designer with 4+ Years of Experience creating modern,
-            conversion-focused websites for small and growing businesses.
+            I'm Angel, a Web Designer with 4+ years of experience creating modern,
+            conversion-focused websites for small businesses in the Philippines and growing international brands.
           </p>
 
           <p className="font-poppins text-lg text-[#4B4B4B] mb-6 leading-relaxed">
-            I don’t just design — I help turn your visitors into actual clients
-            through structured layouts, clear messaging, and a streamlined process
-            from inquiry to launch.
+            I help businesses build a strong online presence through fast, mobile-responsive, and SEO-friendly websites designed to generate real inquiries and clients — not just look good.
           </p>
 
-          {/* VALUE POINTS */}
+          {/* VALUE POINTS (slightly upgraded wording) */}
           <div className="space-y-3 mb-8">
             <p className="text-[#4A3F35] font-medium">
-              ✔ Clear and simple process (no confusion)
+              ✔ Clear and simple process (no confusion, no delays)
             </p>
             <p className="text-[#4A3F35] font-medium">
-              ✔ Modern, high-converting design
+              ✔ Modern, conversion-focused design that attracts clients
             </p>
             <p className="text-[#4A3F35] font-medium">
-              ✔ Built to generate real business results
+              ✔ Built to generate real business results, not just aesthetics
             </p>
           </div>
 
