@@ -24,8 +24,8 @@ export default function ServicesSection() {
       desc: "Add custom functionality and improvements to your site."
     },
     {
-      title: "Online Store Setup",
-      desc: "Simple eCommerce websites to start selling online."
+      title: "WooCommerce Setup",
+      desc: "Simple online stores built ready for products, payments, and orders."
     }
   ];
 
@@ -41,18 +41,9 @@ export default function ServicesSection() {
         className="max-w-3xl mx-auto text-center mb-16"
       >
         <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#4A3F35] leading-tight">
-         Website Services That Help You Get More Clients
+          What We Do to Help You Get More Clients
         </h2>
 
-        <motion.p
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-          viewport={{ once: true }}
-          className="mt-4 text-[#6B5E55] text-base sm:text-lg"
-        >
-          We build websites designed not just to look good — but to convert visitors into real inquiries.
-        </motion.p>
       </motion.div>
 
       {/* Grid */}

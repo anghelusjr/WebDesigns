@@ -14,6 +14,8 @@ import WhyChooseUs from "./sections/WhyChooseUs";
 import GetMoreInquiries from "./sections/GetMoreInquiries";
 import Testimonials from "./sections/Testimonials";
 import About from "./sections/About";
+import WebsiteIssues from "./sections/WebsiteIssues";
+import SolutionsSection from "./sections/SolutionsSection";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -44,7 +46,9 @@ function HomePage() {
         <Navbar />
         <Hero />
         <Problems />
+        <WebsiteIssues />
         <PainPoints />
+        <SolutionsSection />
         <ServicesSection />
         <About />
         <WhyChooseUs />
