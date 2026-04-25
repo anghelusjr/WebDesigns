@@ -20,7 +20,7 @@ export default function Privacy() {
           content="Read the Privacy Policy for WebsiteDesigns.art and learn how we collect, use, and protect your information."
         />
 
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, follow" />
 
         <link
           rel="canonical"
@@ -160,8 +160,7 @@ export default function Privacy() {
                 </h2>
                 <p>
                   For inquiries, please contact:
-                  hello@websitedesigns.art
-
+                  hello@websitedesigns.art 
                   For support-related concerns:
                   support@websitedesigns.art
                 </p>
