@@ -28,7 +28,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Lead Generation Website Design for Small Businesses | WDA</title>
+        <title>Website Design Philippines for Small Businesses | Get More Leads</title>
 
         <meta
           name="description"
