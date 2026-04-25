@@ -181,6 +181,8 @@ export default function SmoothScrollGallery() {
             >
               <img
                 src="images/portfolio/devices.webp"
+                alt="Responsive website design displayed on desktop tablet and mobile devices"
+                loading="lazy"
                 className="w-full h-full object-cover rounded-2xl"
               />
 
@@ -213,6 +215,8 @@ export default function SmoothScrollGallery() {
                 >
                   <img
                     src={img.src}
+                    alt="Website design portfolio showcasing business websites for different industries"
+                    loading="lazy"
                     className={`${imageSize} object-cover rounded-xl shadow-lg hover:scale-105 transition`}
                   />
                 </motion.a>

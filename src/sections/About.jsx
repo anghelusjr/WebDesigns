@@ -14,6 +14,8 @@ export default function About() {
         >
           <img
             src="/images/angel-buenavista.webp"
+            alt="Angel Buenavista web designer creating websites for businesses in the Philippines"
+            loading="lazy"
             className="
             rounded-2xl shadow-xl object-cover object-top w-full
             h-[320px] sm:h-[420px] md:h-[520px] lg:h-[650px]

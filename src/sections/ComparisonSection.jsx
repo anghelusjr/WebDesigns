@@ -54,7 +54,7 @@ const container = {
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <img
               src="/images/complex-features-wda.webp"
-              alt="Website design"
+              alt="Website wireframe planning and layout structure for user interface design"
               className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover object-[35%]"
             />
           </div>

@@ -19,7 +19,8 @@ export default function SplitHero() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="/images/web-email-wda.webp"
-                alt="Main"
+                alt="Email marketing interface on laptop for business website communication"
+                loading="lazy"
                 className="w-full h-[300px] sm:h-[380px] md:h-[420px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-black/30 via-transparent to-transparent rounded-3xl"></div>
@@ -41,7 +42,8 @@ export default function SplitHero() {
             >
               <img
                 src="/images/web-reimagined.webp"
-                alt="Top"
+                alt="Responsive website design mockup for modern business website"
+                loading="lazy"
                 className="w-full h-[120px] sm:h-[150px] object-cover"
               />
             </motion.div>
@@ -62,7 +64,8 @@ export default function SplitHero() {
             >
               <img
                 src="/images/web-confused-wda.webp"
-                alt="Bottom"
+                alt="Website wireframe layout for user interface design"
+                loading="lazy"
                 className="w-full h-[120px] sm:h-[150px] object-cover"
               />
             </motion.div>
