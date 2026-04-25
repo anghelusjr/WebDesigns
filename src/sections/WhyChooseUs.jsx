@@ -4,18 +4,18 @@ export default function WhyChooseUs() {
   const steps = [
     {
       title: "Understand Your Business",
-      desc: "We learn about your service and customers to create a website that helps you get inquiries."
+      desc: "We learn your service and customers to build the right strategy."
     },
     {
-      title: "Plan and Design",
-      desc: "We structure your content so visitors quickly understand your offer and what to do next."
+      title: "Plan & Design",
+      desc: "We structure your website so visitors quickly understand and take action."
     },
     {
-      title: "Build Your Website",
-      desc: "We create a high-converting website that works on all devices and drives action."
+      title: "Build",
+      desc: "We create a fast, mobile-friendly website designed to convert."
     },
     {
-      title: "Launch and Support",
+      title: "Launch & Support",
       desc: "We launch your site and support you as your business grows."
     }
   ];
@@ -45,13 +45,12 @@ export default function WhyChooseUs() {
           className="text-center mb-16"
         >
           <h2 className="text-2xl sm:text-4xl font-bold mb-6">
-            Why Small and Medium-sized Businesses Choose Us
+            Why Small Businesses Choose Us
           </h2>
 
-          <p className="max-w-2xl mx-auto text-gray-300 text-base sm:text-lg">
-            Business owners choose us because they want a simple, conversion-focused website design without confusion.
-            <br /><br />
-            We understand that you are busy. That is why we keep everything clear, guide you step by step, and focus on building a website that actually works for your business.
+          <p className="max-w-4xl mx-auto text-gray-300 text-base sm:text-lg">
+            Simple, conversion-focused websites—built to help you get client inquiries.
+            We keep everything clear and focused, so you get a website that actually works for your business.
           </p>
         </motion.div>
 

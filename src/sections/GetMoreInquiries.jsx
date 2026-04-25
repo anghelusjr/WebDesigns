@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export default function GetMoreInquiries() {
   const results = [
-    "Visitors understand your service faster",
-    "More people take action instead of leaving",
-    "Your website becomes easier to use on mobile",
-    "Customers can quickly call, message, or request a quote"
+    "Clear service message",
+    "More people take action",
+    "Easy to use on mobile",
+    "Easy to contact"
   ];
 
   return (
@@ -31,12 +31,11 @@ export default function GetMoreInquiries() {
               leading-snug
               mb-4 sm:mb-6
             ">
-              Websites That Help Businesses Get More Inquiries
+              Websites That Help You Get More Inquiries
             </h2>
 
             <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
-              We build websites designed to increase conversion rates and make it
-              easier for people to contact you.
+              We build websites that make it easy for visitors to understand your service and take action.
             </p>
           </motion.div>
 

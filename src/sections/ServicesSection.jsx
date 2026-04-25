@@ -5,27 +5,27 @@ export default function ServicesSection() {
   const services = [
     {
       title: "Business Website Design",
-      desc: "We design small business websites that clearly explain your service and help turn visitors into clients."
+      desc: "Clear, professional websites that turn visitors into clients."
     },
     {
       title: "Landing Page Design",
-      desc: "We build high-converting landing pages that guide visitors step by step to take action."
+      desc: "Focused pages that guide visitors to take action."
     },
     {
       title: "Website Redesign",
-      desc: "We redesign websites using WordPress, Duda, or React — improving design and user experience to help convert more visitors into real client inquiries."
+      desc: "Upgrade your site for better design, clarity, and conversions."
     },
     {
-      title: "WordPress Websites",
-      desc: "We design and build WordPress websites from scratch with a clean, conversion-focused layout that helps turn visitors into actual clients."
+      title: "Custom Website Design",
+      desc: "Unique designs tailored to your business and brand."
     },
     {
-      title: "Lead-Focused Website Design",
-      desc: "We design websites that help service-based businesses get more inquiries by combining clean, professional design with strategic layouts, clear messaging, and strong call-to-actions that guide visitors to take action."
+      title: "Advanced Website Features",
+      desc: "Add custom functionality and improvements to your site."
     },
     {
-      title: "Basic Online Store Setup",
-      desc: "We set up simple WooCommerce online stores with product listings and basic payment integration — designed to help you start selling and turn visitors into paying customers."
+      title: "Online Store Setup",
+      desc: "Simple eCommerce websites to start selling online."
     }
   ];
 
@@ -41,7 +41,7 @@ export default function ServicesSection() {
         className="max-w-3xl mx-auto text-center mb-16"
       >
         <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#4A3F35] leading-tight">
-          Our Website Services That Help You Get More Clients
+         Website Services That Help You Get More Clients
         </h2>
 
         <motion.p
@@ -95,7 +95,7 @@ export default function ServicesSection() {
 
             {/* CTA */}
             <Link to="/free-audit">
-              <div className="mt-6 text-sm text-[#C89B7B] font-medium opacity-0 group-hover:opacity-100 transition duration-300 cursor-pointer">
+              <div className="mt-6 text-sm text-[#708d62] font-medium opacity-0 group-hover:opacity-100 transition duration-300 cursor-pointer">
                 Get Free Audit →
               </div>
             </Link>

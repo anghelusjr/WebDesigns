@@ -33,7 +33,7 @@ export default function SplitHero() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-xs sm:text-sm lg:text-lg xl:pt-10 tracking-[0.2em] text-[#4A3F35]/70 mb-4"
           >
-            WEBSITES BUILT TO GENERATE CLIENT INQUIRIES
+          Websites Designed to Generate Client Inquiries for Small Businesses
           </motion.p>
 
           {/* HEADING */}
@@ -43,8 +43,8 @@ export default function SplitHero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-4xl xl:text-5xl leading-tight text-[#3E352C]"
           >
-            Clients Scroll. <br />
-            Your Website Takes Control.
+            Visitors scroll. <br />
+            Your website should guide them.
           </motion.h1>
 
           {/* PARAGRAPH */}
@@ -54,9 +54,7 @@ export default function SplitHero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="mt-4 text-sm sm:text-base xl:text-lg text-[#3E352C]/80 leading-relaxed max-w-xl"
           >
-            We design conversion-focused websites that guide visitors,
-            build trust, and turn them into real inquiries—without
-            overwhelming your users.
+           We turn your website visitors into real clients.
           </motion.p>
 
           {/* BUTTON */}

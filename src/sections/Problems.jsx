@@ -3,23 +3,23 @@ import { motion } from "framer-motion";
 export default function Problems() {
     const problems = [
         {
-            text: "Visitors do not understand what you offer",
+            text: "Unclear offer",
             icon: "/icons/icons1-Photoroom.png"
         },
         {
-            text: "They cannot find what to do next",
+            text: "No clear next step",
             icon: "/icons/icons2-Photoroom.png"
         },
         {
-            text: "Your website does not build trust quickly",
+            text: "Lacks trust",
             icon: "/icons/icons3-Photoroom.png"
         },
         {
-            text: "The layout feels confusing or hard to follow",
+            text: "Confusing layout",
             icon: "/icons/icons4-Photoroom.png"
         },
         {
-            text: "It is slow or hard to use on mobile",
+            text: "Slow or not mobile-friendly",
             icon: "/icons/icons5-Photoroom.png"
         }
     ];
@@ -36,7 +36,7 @@ export default function Problems() {
                     viewport={{ once: true }}
                     className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-[#4A3F35]"
                 >
-                    What Happens When People Visit Your Website?
+                    Why Small Business Websites in the Philippines Fail to Convert Visitors
                 </motion.h2>
 
                 {/* SUBTEXT */}
@@ -47,7 +47,8 @@ export default function Problems() {
                     viewport={{ once: true }}
                     className="text-base sm:text-lg lg:text-xl text-[#4A3F35]/80 max-w-3xl mx-auto mb-20"
                 >
-                    Most people decide in a few seconds if they will stay or leave your business website. If your message is not clear, they leave without taking action, costing you real clients.
+                    Most small business websites in the Philippines lose customers in seconds.
+                    If your website isn’t clear, visitors leave.
                 </motion.p>
 
                 {/* GRID */}
@@ -69,7 +70,7 @@ export default function Problems() {
                                 visible: { opacity: 1, y: 0 }
                             }}
                             transition={{ duration: 0.4 }}
-                            
+
                             /* 🔥 HOVER GROUP */
                             whileHover={{ y: -6 }}
                             className="group flex flex-col items-center text-center gap-6 cursor-pointer transition"

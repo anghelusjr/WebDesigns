@@ -67,26 +67,25 @@ const container = {
           variants={item}
           className="bg-[#E8D5C4] rounded-3xl shadow-xl p-6 sm:p-10"
         >
-          <motion.p variants={item} className="text-[#4A3F35]/70 text-sm mb-3">
+          <motion.p variants={item} className="text-[#4A3F35]/70 text-md mb-3 uppercase ">
             Most Agencies vs Us
           </motion.p>
 
           <motion.h2 variants={item} className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#4A3F35] mb-5">
-            What Most Agencies Get Wrong
+            Most agencies focus on trends and complex features.
           </motion.h2>
 
           <motion.p variants={item} className="text-[#4A3F35]/80 mb-6">
-            Many agencies focus too much on trends and complex features.
-            But most businesses don’t need that. They need a website that
-            clearly explains their service, builds trust, works on mobile,
-            and makes it easy for customers to take action.
+           We focus on what actually matters getting you client inquiries.<br /><br />
+
+           Many websites look good but don’t clearly explain the service or guide visitors to take action. That’s where most businesses lose potential customers.
           </motion.p>
 
           <div className="space-y-3 text-[#4A3F35]">
             {[
-              "Clear messaging that explains your service",
-              "Mobile-first design that actually works",
-              "Focused on getting inquiries, not just looks",
+              "Clear messaging",
+              "Mobile-first design",
+              "Built to generate inquiries",
             ].map((text, i) => (
               <motion.div key={i} variants={item} className="flex gap-3">
                 <span className="text-[#A8B5A2]">✔</span>

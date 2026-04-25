@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 export default function Testimonials() {
   const testimonials = [
     {
-      title: "Now I get regular inquiries",
+      title: "More inquiries coming in",
       quote:
-        "Before, my website wasn’t bringing any calls. After the redesign, I started getting inquiries almost every week.",
+        "After improving the website, businesses start receiving more consistent inquiries.",
       role: "Plumbing Business Owner",
     },
     {
-      title: "My website finally works",
+      title: "Clearer message, better results",
       quote:
-        "My old website looked fine, but people weren’t reaching out. Now I get more messages from people who understand my service.",
+        "When visitors understand the service quickly, they are more likely to reach out.",
       role: "Home Services Business Owner",
     },
     {
-      title: "Simple process, real results",
+      title: "Simple, effective website",
       quote:
-        "Everything was easy to manage, and now I’m getting inquiries from people actually interested in my service.",
+        "A clear and easy-to-use website helps turn visitors into real clients.",
       role: "Startup Founder",
     },
   ];
@@ -29,10 +29,10 @@ export default function Testimonials() {
         {/* HEADER */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-semibold text-[#4A3F35] mb-4">
-            What Our Clients Say
+            What You Can Expect from a Better Website
           </h2>
           <p className="text-[#6B5E57] max-w-xl mx-auto">
-            Real results from businesses who improved their website and started getting more inquiries.
+            Here’s what small businesses typically experience after improving their website:
           </p>
         </div>
 

@@ -150,7 +150,7 @@ export default function SmoothScrollGallery() {
       mb-4 sm:mb-6
     "
         >
-          A Look at the Websites We’ve Designed for Growing Businesses
+          Sample Website Designs for Small Businesses
         </h2>
 
         <p
@@ -162,8 +162,7 @@ export default function SmoothScrollGallery() {
       leading-relaxed
     "
         >
-          Each project is built with clear messaging, simple structure, and user-focused design
-          to help turn visitors into real inquiries.
+          These are sample and concept designs created to showcase layout, structure, and conversion-focused design.
         </p>
       </motion.div>
 

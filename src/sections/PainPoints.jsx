@@ -84,30 +84,28 @@ export default function SplitHero() {
 
             {/* HEADLINE */}
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-[#4A3F35] leading-tight mb-5 sm:mb-6">
-              We Fix What Is Stopping Your Website from Getting Clients
+              We Fix What’s Stopping Your Website from Getting Clients
             </h2>
 
             {/* TEXT */}
             <p className="text-sm sm:text-base md:text-lg text-[#4A3F35]/80 mb-6 sm:mb-8 leading-relaxed">
-              We improve your website so visitors clearly understand your offer,
-              trust your business, and take action helping you get more inquiries
-              and close more deals.
+             We improve your website so visitors understand your offer, trust your business, and take action.
             </p>
 
             {/* SUBTITLE */}
             <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#4A3F35] mb-5 sm:mb-6">
-              How we help
+              How we help:
             </h3>
 
             {/* BULLETS */}
             <ul className="space-y-4 sm:space-y-5">
               {[
-                "Make your message clear",
-                "Guide visitors to take action",
-                "Build trust with simple layouts",
-                "Make your site easy on mobile",
-                "Add clear ways to contact you",
-                "Turn visitors into real inquiries",
+                "Clarify your message",
+                "Guide visitors to act",
+                "Build trust with clean design",
+                "Optimize for mobile",
+                "Add clear contact points",
+                "Turn visitors into inquiries ",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 sm:gap-4">
                   
