@@ -21,7 +21,7 @@ export default function Pricing() {
     const plans = [
         {
             title: "Starter Website",
-            price: "$150 (~₱8,000)",
+            price: "$215 (~₱11,999)",
             slug: "starter",
             description: "A simple, professional website to help you get online and start receiving inquiries.",
             features: [
@@ -37,7 +37,7 @@ export default function Pricing() {
         },
         {
             title: "Business Website",
-            price: "$540 (~₱30,000)",
+            price: "$540 (~₱29,999)",
             slug: "business",
             description: "A structured website designed to guide visitors and turn them into consistent clients.",
             features: [
@@ -53,7 +53,7 @@ export default function Pricing() {
         },
         {
             title: "Lead Generation Website",
-            price: "$1,080 (~₱60,000)",
+            price: "$1,080 (~₱59,000)",
             slug: "lead",
             description: "A high-converting website built to turn visitors into real inquiries and sales.",
             features: [
@@ -116,10 +116,10 @@ export default function Pricing() {
                         Conversion-focused websites
                     </span>{" "}
                     <span className="text-[#4A3F35] font-semibold">
-                        starting at $150
+                        starting at $215
                     </span>{" "}
                     <span className="text-[#6B5F55]">
-                        (~₱8,000)
+                        (~₱11,999)
                     </span>
                 </motion.h3>
 
