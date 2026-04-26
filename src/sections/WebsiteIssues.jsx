@@ -152,7 +152,7 @@ export default function ImageStepSection() {
                         rel="noopener noreferrer"
                     >
                         <button className="bg-[#4A3F35] text-[#FAF9F6] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-medium hover:opacity-90 transition cursor-pointer">
-                            Fix My Website
+                            Request Free Website Review
                         </button>
                     </a>
                 </motion.div>
