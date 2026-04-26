@@ -46,6 +46,7 @@ const issues = [
 
 export default function ImageStepSection() {
     const [active, setActive] = useState(0);
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
     return (
         <section className="bg-[#FAF9F6] py-16 md:py-24 px-4 md:px-6">
@@ -80,8 +81,8 @@ export default function ImageStepSection() {
                                 <motion.button
                                     key={index}
                                     onClick={() => setActive(index)}
-                                    initial={{ opacity: 0, y: 30 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
+                                    initial={isMobile ? false : { opacity: 0, y: 40 }}
+                                    whileInView={isMobile ? false : { opacity: 1, y: 0 }}
                                     transition={{ duration: 0.4, delay: index * 0.1 }}
                                     viewport={{ once: true }}
                                     className="flex flex-col items-center z-10 min-w-[80px]"
