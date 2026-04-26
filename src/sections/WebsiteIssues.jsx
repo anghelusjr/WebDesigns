@@ -71,7 +71,7 @@ export default function ImageStepSection() {
                     <div className="hidden md:block absolute top-6 left-0 w-full h-[2px] bg-[#E8D5C4]"></div>
 
                     {/* Scroll container on mobile */}
-                    <div className="flex justify-center md:justify-between gap-6 md:gap-0 overflow-x-auto md:overflow-visible pb-4 md:pb-0">
+                   <div className="flex justify-start md:justify-between gap-6 md:gap-0 overflow-x-auto md:overflow-visible pb-4 md:pb-0 px-4 md:px-0 scroll-smooth">
                         {issues.map((item, index) => {
                             const isActive = active === index;
                             const Icon = item.icon;
