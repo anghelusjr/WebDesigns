@@ -72,7 +72,7 @@ export default function ImageStepSection() {
                     <div className="hidden md:block absolute top-6 left-0 w-full h-[2px] bg-[#E8D5C4]"></div>
 
                     {/* Scroll container on mobile */}
-                  <div className="flex justify-center md:justify-between gap-6 md:gap-0 overflow-x-auto md:overflow-visible pb-4 md:pb-0 px-4 md:px-0 scroll-smooth">
+                  <div className="flex md:justify-between justify-start overflow-x-auto md:overflow-visible px-4 md:px-0 pb-4 md:pb-0 scroll-smooth gap-4">
                         {issues.map((item, index) => {
                             const isActive = active === index;
                             const Icon = item.icon;
@@ -85,7 +85,7 @@ export default function ImageStepSection() {
                                     whileInView={isMobile ? false : { opacity: 1, y: 0 }}
                                     transition={{ duration: 0.4, delay: index * 0.1 }}
                                     viewport={{ once: true }}
-                                    className="flex flex-col items-center z-10 min-w-[80px]"
+                                    className="flex flex-col items-center z-10 min-w-[80px] flex-shrink-0"
                                 >
                                     {/* Icon */}
                                     <div
