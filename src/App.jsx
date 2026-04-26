@@ -30,7 +30,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Website Design Philippines for Small Businesses | Affordable</title>
+        <title>Affordable Website Design Philippines | Small Business</title>
 
         <meta
           name="description"
