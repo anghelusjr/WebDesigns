@@ -151,7 +151,7 @@ export default function ImageStepSection() {
                         className="inline-block"
                     >
                         <span className="bg-[#4A3F35] text-[#FAF9F6] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-medium hover:opacity-90 transition cursor-pointer inline-block">
-                            Request Free Website Review
+                            See Pricing & Get Free Review
                         </span>
                     </a>
                 </motion.div>
