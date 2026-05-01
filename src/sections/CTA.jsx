@@ -32,27 +32,27 @@ export default function FinalCTA() {
           {/* 🔥 CTA BUTTON (FIXED) */}
           <div className="flex flex-col items-center lg:items-start">
             <a
-              href="https://wda-web-design.plutio.com/p/form/zGr4yTuMAd5WGuF3G"
+              href="#pricing"
               className="
-                w-full
-                min-[500px]:w-auto
-                inline-flex items-center justify-center
+              w-full
+              min-[500px]:w-auto
+              inline-flex items-center justify-center
 
-                bg-[#4A3F35] text-white
+              bg-[#4A3F35] text-white
 
-                px-6 sm:px-8 py-4
-                text-sm sm:text-base md:text-lg
-                font-medium
+              px-6 sm:px-8 py-4
+              text-sm sm:text-base md:text-lg
+              font-medium
 
-                rounded-full
-                shadow-sm
+              rounded-full
+              shadow-sm
 
-                hover:shadow-md
-                hover:scale-[1.02]
-                active:scale-[0.98]
+              hover:shadow-md
+              hover:scale-[1.02]
+              active:scale-[0.98]
 
-                transition duration-200
-              "
+              transition duration-200
+            "
             >
               Start Your Project
             </a>

@@ -64,7 +64,7 @@ export default function About() {
 
           {/* CTA */}
           <a
-            href="https://wda-web-design.plutio.com/p/form/zGr4yTuMAd5WGuF3G"
+            href="#pricing"
             className="inline-block bg-[#4A3F35] text-white px-7 py-3 rounded-full font-medium hover:opacity-90 transition"
           >
             Start Your Project

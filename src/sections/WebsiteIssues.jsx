@@ -72,7 +72,7 @@ export default function ImageStepSection() {
                     <div className="hidden md:block absolute top-6 left-0 w-full h-[2px] bg-[#E8D5C4]"></div>
 
                     {/* Scroll container on mobile */}
-                  <div className="flex md:justify-between justify-start overflow-x-auto md:overflow-visible px-4 md:px-0 pb-4 md:pb-0 scroll-smooth gap-4">
+                    <div className="flex md:justify-between justify-start overflow-x-auto md:overflow-visible px-4 md:px-0 pb-4 md:pb-0 scroll-smooth gap-4">
                         {issues.map((item, index) => {
                             const isActive = active === index;
                             const Icon = item.icon;
@@ -90,15 +90,15 @@ export default function ImageStepSection() {
                                     {/* Icon */}
                                     <div
                                         className={`w-14 h-14 md:w-16 md:h-16 flex items-center justify-center rounded-full border transition cursor-pointer ${isActive
-                                                ? "bg-[#A8B5A2] border-[#A8B5A2]"
-                                                : "bg-white border-[#E8D5C4]"
+                                            ? "bg-[#A8B5A2] border-[#A8B5A2]"
+                                            : "bg-white border-[#E8D5C4]"
                                             }`}
                                     >
                                         <Icon
                                             strokeWidth={1.8}
                                             className={`w-5 h-5 md:w-6 md:h-6 transition ${isActive
-                                                    ? "text-white scale-110"
-                                                    : "text-[#4A3F35]"
+                                                ? "text-white scale-110"
+                                                : "text-[#4A3F35]"
                                                 }`}
                                         />
                                     </div>
@@ -147,13 +147,12 @@ export default function ImageStepSection() {
                     className="text-center mt-12 md:mt-16"
                 >
                     <a
-                        href="https://wda-web-design.plutio.com/p/form/jgrK6Wn8ZQCmZyHeZ"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="#pricing"
+                        className="inline-block"
                     >
-                        <button className="bg-[#4A3F35] text-[#FAF9F6] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-medium hover:opacity-90 transition cursor-pointer">
+                        <span className="bg-[#4A3F35] text-[#FAF9F6] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-medium hover:opacity-90 transition cursor-pointer inline-block">
                             Request Free Website Review
-                        </button>
+                        </span>
                     </a>
                 </motion.div>
 

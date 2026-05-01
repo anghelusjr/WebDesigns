@@ -192,9 +192,11 @@ export default function Pricing() {
                             </p>
 
                             {/* BUTTON */}
-                            <button
-                                onClick={() => openModal(p.slug)}
-                                className={`cursor-pointer mt-auto py-2 sm:py-3 rounded-md text-sm sm:text-base transition text-center font-medium transform hover:scale-[1.03]
+                            <a
+                                href="https://wda-web-design.plutio.com/p/form/jgrK6Wn8ZQCmZyHeZ"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`mt-auto py-2 sm:py-3 rounded-md text-sm sm:text-base transition text-center font-medium transform hover:scale-[1.03] inline-block
 
                                     ${p.highlight
                                         ? "bg-[#FAF9F6] text-[#4A3F35] hover:opacity-90"
@@ -202,7 +204,7 @@ export default function Pricing() {
                                     }`}
                             >
                                 Get Quote
-                            </button>
+                            </a>
 
                         </motion.div>
                     ))}
