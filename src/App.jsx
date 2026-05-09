@@ -36,7 +36,7 @@ function HomePage() {
           name="description"
           content="We design high-converting websites for small businesses that turn visitors into real clients. Built to generate leads and grow your business."
         />
-
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://websitedesigns.art/" />
       </Helmet>
 
