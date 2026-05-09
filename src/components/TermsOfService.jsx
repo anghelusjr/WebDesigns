@@ -27,7 +27,7 @@ export default function TermsOfService() {
 
         <link
           rel="canonical"
-          href="https://websitedesigns.art/terms-of-service"
+          href="https://www.websitedesigns.art/terms-of-service"
         />
       </Helmet>
 

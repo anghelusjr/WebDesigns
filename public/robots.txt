@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://websitedesigns.art/sitemap.xml
+Sitemap: https://www.websitedesigns.art/sitemap.xml

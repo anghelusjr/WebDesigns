@@ -24,7 +24,7 @@ export default function Privacy() {
 
         <link
           rel="canonical"
-          href="https://websitedesigns.art/privacy-policy"
+          href="https://www.websitedesigns.art/privacy-policy"
         />
       </Helmet>
 
