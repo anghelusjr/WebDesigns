@@ -40,7 +40,7 @@ function HomePage() {
         <link rel="canonical" href="https://www.websitedesigns.art/" />
       </Helmet>
 
-      <div className="relative overflow-x-hidden">
+      <main className="relative overflow-x-hidden">
         <FloatingWidget />
 
         <Navbar />
@@ -59,7 +59,7 @@ function HomePage() {
         <GetMoreInquiries />
         <CTA />
         <Footer />
-      </div>
+      </main>
     </>
   );
 }
