@@ -2,15 +2,16 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 export default function SplitHero() {
+  const isMobile = window.innerWidth < 768;
+
   return (
     <section className="w-full bg-white">
-
       <div className="flex flex-col xl:flex-row min-h-screen">
 
         {/* ================= LEFT IMAGE ================= */}
         <motion.div
-          initial={{ opacity: 0, scale: 1.05 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={isMobile ? false : { opacity: 0, scale: 1.05 }}
+          animate={isMobile ? false : { opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="w-full xl:w-[60%] h-[45vh] sm:h-[55vh] xl:h-screen overflow-hidden"
         >
@@ -28,18 +29,18 @@ export default function SplitHero() {
 
           {/* SMALL LABEL */}
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={isMobile ? false : { opacity: 0, y: 20 }}
+            animate={isMobile ? false : { opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-xs sm:text-sm lg:text-lg xl:pt-10 tracking-[0.2em] text-[#4A3F35]/70 mb-4"
           >
-          Websites Designed to Generate Client Inquiries for Small Businesses
+            Websites Designed to Generate Client Inquiries for Small Businesses
           </motion.p>
 
           {/* HEADING */}
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={isMobile ? false : { opacity: 0, y: 30 }}
+            animate={isMobile ? false : { opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-4xl xl:text-5xl leading-tight text-[#3E352C]"
           >
@@ -49,18 +50,18 @@ export default function SplitHero() {
 
           {/* PARAGRAPH */}
           <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={isMobile ? false : { opacity: 0, y: 30 }}
+            animate={isMobile ? false : { opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
             className="mt-4 text-sm sm:text-base xl:text-lg text-[#3E352C]/80 leading-relaxed max-w-xl"
           >
-           We turn your website visitors into real clients.
+            We turn your website visitors into real clients.
           </motion.p>
 
           {/* BUTTON */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={isMobile ? false : { opacity: 0, y: 30 }}
+            animate={isMobile ? false : { opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
             className="mt-6"
           >
