@@ -16,6 +16,7 @@ import Testimonials from "./sections/Testimonials";
 import About from "./sections/About";
 import WebsiteIssues from "./sections/WebsiteIssues";
 import SolutionsSection from "./sections/SolutionsSection";
+import BlogSection from "./sections/Blog";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -25,6 +26,7 @@ import FreeAudit from "./components/FreeAudit";
 import TermsOfService from "./components/TermsOfService";
 import PrivacyPolicy from "./components/Privacy";
 import FloatingWidget from "./components/FloatingWidget";
+
 
 function HomePage() {
   return (
@@ -130,6 +132,7 @@ function HomePage() {
         <ServicesSection />
         <About />
         <WhyChooseUs />
+        {/* <BlogSection /> */}
         <Portfolio />
         <ComparisonSection />
         <Pricing />

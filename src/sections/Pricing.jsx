@@ -203,7 +203,7 @@ export default function Pricing() {
                                         : "border border-[#4A3F35] text-[#4A3F35] hover:bg-[#4A3F35] hover:text-[#FAF9F6]"
                                     }`}
                             >
-                                Get Quote
+                                Get Started
                             </a>
 
                         </motion.div>
